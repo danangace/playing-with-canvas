@@ -1,0 +1,25 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+}
+
+#toolbar {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  padding: 5px;
+  background-color: #000000;
+  height: 100%;
+}
+
+#drawing-board {
+  border: 1px solid #E0E0E0;
+}
